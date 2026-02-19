@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.4.0">
+  <diagram name="Page-1" id="Aw0Q7VSlj1NChyXfBHBU">
+    <mxGraphModel dx="1429" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-16" edge="1" parent="1" source="szeBGAzqlpWMV_dnxNGI-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="szeBGAzqlpWMV_dnxNGI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="START" vertex="1">
+          <mxGeometry height="80" width="80" x="327" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-17" edge="1" parent="1" source="szeBGAzqlpWMV_dnxNGI-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="szeBGAzqlpWMV_dnxNGI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="INPUT a, b, c" vertex="1">
+          <mxGeometry height="60" width="120" x="457" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fy9gsbexIiRfEtup4tEw-1" edge="1" parent="1" source="szeBGAzqlpWMV_dnxNGI-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="szeBGAzqlpWMV_dnxNGI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="D = b **2 - 4 * a * c" vertex="1">
+          <mxGeometry height="60" width="120" x="457" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-20" edge="1" parent="1" source="szeBGAzqlpWMV_dnxNGI-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="szeBGAzqlpWMV_dnxNGI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-27" connectable="0" parent="szeBGAzqlpWMV_dnxNGI-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="TRUE" vertex="1">
+          <mxGeometry relative="1" x="-0.0928" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-21" edge="1" parent="1" source="szeBGAzqlpWMV_dnxNGI-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="szeBGAzqlpWMV_dnxNGI-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-30" connectable="0" parent="szeBGAzqlpWMV_dnxNGI-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="FALSE" vertex="1">
+          <mxGeometry relative="1" x="-0.2215" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="D &amp;gt; 0&lt;div&gt;?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="477" y="309" as="geometry" />
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-22" edge="1" parent="1" source="szeBGAzqlpWMV_dnxNGI-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="szeBGAzqlpWMV_dnxNGI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-28" connectable="0" parent="szeBGAzqlpWMV_dnxNGI-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="TRUE" vertex="1">
+          <mxGeometry relative="1" x="0.0362" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-23" edge="1" parent="1" source="szeBGAzqlpWMV_dnxNGI-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="szeBGAzqlpWMV_dnxNGI-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-29" connectable="0" parent="szeBGAzqlpWMV_dnxNGI-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="FALSE" vertex="1">
+          <mxGeometry relative="1" x="-0.3376" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="D = 0&lt;div&gt;?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="477" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-41" edge="1" parent="1" source="szeBGAzqlpWMV_dnxNGI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="349" />
+              <mxPoint x="160" y="610" />
+            </Array>
+            <mxPoint x="280" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="PRINT &quot;Akar Real dan Berlainan&quot;" vertex="1">
+          <mxGeometry height="60" width="210" x="217" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-42" edge="1" parent="1" source="szeBGAzqlpWMV_dnxNGI-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="157" y="479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="PRINT &quot;Akar Real dan Kembar&quot;" vertex="1">
+          <mxGeometry height="60" width="200" x="227" y="449" as="geometry" />
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-33" edge="1" parent="1" source="szeBGAzqlpWMV_dnxNGI-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="367" y="599" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="PRINT &quot;Akar Imajiner / Tidak Real / Khayal&quot;" vertex="1">
+          <mxGeometry height="60" width="230" x="402" y="569" as="geometry" />
+        </mxCell>
+        <mxCell id="szeBGAzqlpWMV_dnxNGI-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="END" vertex="1">
+          <mxGeometry height="80" width="80" x="282" y="559" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
