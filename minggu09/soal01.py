@@ -1,6 +1,6 @@
 def cek_anagram(a, b):
-    a = a.rstrip().lower()
-    b = b.rstrip().lower()
+    a = a.strip().lower()
+    b = b.strip().lower()
 
     if len(a) == len(b):
         return sorted(a) == sorted(b)
